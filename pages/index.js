@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css"
 import Header from "../components/Header"
 import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
-
+import cloudBetLogo from "../public/cloudbet1.png"
 const supportedChains = ["31337", "4"]
 
 export default function Home() {
@@ -29,6 +29,32 @@ export default function Home() {
             ) : (
                 <div>Please connect to a Wallet</div>
             )}
+            <div>
+                While we are getting the Jackpot ready, please visit our sponsor, CloudBet: #1 in
+                bitcoin betting
+            </div>
+
+            <div>
+                {/* <img src={cloudBetLogo} /> */}
+                {/* <link rel="icon" href="/cloudbet1.png" />
+                <img src="./pulic/cloudbet1.png" /> */}
+                <h3 class="color--gradient-y mb-3">
+                    Bringing you the most excitement in the sports betting
+                </h3>
+                <p></p>
+
+                <div class="text-center mt-5">
+                    <a href="https://www.cloudbet.com/en/sports?s=baseball" class="default-btn">
+                        Lets Play
+                    </a>
+                </div>
+
+                {/* <div class="error__thumb">
+                    <a href="index.html">
+                        <img src="cloudbet/Cloudbet_Banner_adverts/CB2018Acq_medrect_300x250_02_lr.gif" />
+                    </a>
+                </div> */}
+            </div>
         </div>
     )
 }

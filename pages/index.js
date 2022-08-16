@@ -38,16 +38,14 @@ export default function Home() {
                 {/* <img src={cloudBetLogo} /> */}
                 {/* <link rel="icon" href="/cloudbet1.png" />
                 <img src="./pulic/cloudbet1.png" /> */}
-                <h3 class="color--gradient-y mb-3">
-                    Bringing you the most excitement in the sports betting
-                </h3>
+                <h3>Bringing you the most excitement in the sports betting</h3>
                 <p></p>
 
-                <div class="text-center mt-5">
+                {/* <div class="text-center mt-5">
                     <a href="https://www.cloudbet.com/en/sports?s=baseball" class="default-btn">
                         Lets Play
                     </a>
-                </div>
+                </div> */}
 
                 {/* <div class="error__thumb">
                     <a href="index.html">

@@ -4,7 +4,7 @@ import Header from "../components/Header"
 import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
 import cloudBetLogo from "../public/cloudbet1.png"
-const supportedChains = ["31337", "4"]
+const supportedChains = ["Localhost", "Rinkeby"]
 
 export default function Home() {
     const { isWeb3Enabled, chainId } = useMoralis()
